@@ -215,6 +215,129 @@
 
             
             <section id="main">
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2017/12/02/hello-world/">Hello World</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2017/12/02/hello-world/">
+            <time datetime="2017-12-02T13:11:24.130Z" itemprop="datePublished">2017-12-02</time>
+        </a>
+    </div>
+
+
+                        
+                        
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            <p><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p></p>
+            <p class="article-more-link">
+                <a href="/2017/12/02/hello-world/#more">Read More</a>
+            </p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://ahmadbasir.github.io/2017/12/02/hello-world/" data-id="cjapc0mc10000b6jdpzcsk02n" class="article-share-link"><i class="fa fa-share"></i>Bagikan</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://ahmadbasir.github.io/2017/12/02/hello-world/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://ahmadbasir.github.io/2017/12/02/hello-world/">0</span>&nbsp;Komentar</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
     <article id="post-How-To-Install-Inkscape-via-Command-Line-Linux" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -257,19 +380,11 @@
         
         <div class="article-entry" itemprop="articleBody">
         
-            
-            <p><img src="/asset/inkscape.svg"></p>
-<h4 id="Yo-Sob-Kalian-tau-nggak-apa-itu-Inkscape-D"><a href="#Yo-Sob-Kalian-tau-nggak-apa-itu-Inkscape-D" class="headerlink" title="Yo, Sob! Kalian tau nggak apa itu Inkscape ? :D"></a>Yo, Sob! Kalian tau nggak apa itu <a href="https://inkscape.org" target="_blank" rel="noopener"><strong>Inkscape</strong></a> ? :D</h4><p>Yoi inkscape adalah sebuah <strong>Free Open Source Software</strong> yang berbasis <strong>Vektor</strong>, kata vektor disini bukan maksudnya kita belajar Fisika ya sob :D melainkan <strong>Desain Vektor</strong> hehe.. Mungkin sebagian banyak orang lebih mengenal yang namanya <strong>C#rel</strong> ya? sama dulu saya juga pengguna <strong>C#rel</strong> yang dulu tuh masih jaman-jamannya suka <strong>NgeCr@ck</strong> suka <strong>Baj@k</strong> sana sini hmm jadi sedih kalo inget masa-masa dulu :’D</p>
-<blockquote>
-<p><em>Ingatlah sobat - sobat ku yang mulia, sesungguhnya semua perbuatan kita selalu diawasi dan dicatat dan akan diberi balasan suatu saat nanti, entah itu perbuatan baik ataupun perbuatan tidak baik.</em></p>
-<p style="text-align:right"><strong>-Abas_</strong></p> 
-
-</blockquote>
-<h4 id="Ok-udah-cukup-basa-basinya-D"><a href="#Ok-udah-cukup-basa-basinya-D" class="headerlink" title="Ok udah cukup basa - basinya :D"></a>Ok udah cukup basa - basinya :D</h4><p>langsung aja kita mulai bagaimana sih? caranya install <a href="https://inkscape.org" target="_blank" rel="noopener"><strong>Inkscape</strong></a> lewat CLI (Command Line Interface) yang biasanya kita install dengan download dulu, terus di Run installer nya nah kita disini tidak perlu klik <strong>Next.. Next</strong> mulu sob :D wkwk</p>
-<h4 id="sekarang-buka-dulu-Terminal-nya-ctrl-alt-t"><a href="#sekarang-buka-dulu-Terminal-nya-ctrl-alt-t" class="headerlink" title="sekarang buka dulu Terminal nya ctrl+alt+t"></a>sekarang buka dulu Terminal nya <code>ctrl+alt+t</code></h4><p>ketikan command ini dulu untuk <strong>mengUpdate</strong> paket-paket terbaru sob<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Abas_$&gt; sudo apt update upgrade</span><br></pre></td></tr></table></figure></p>
-<p>lalu untuk menginstall <a href="https://inkscape.org" target="_blank" rel="noopener"><strong>Inkscape</strong></a> nya cukup ketikan command<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Abas_$&gt; sudo apt install inkscape</span><br></pre></td></tr></table></figure></p>
-<p>disini terminal akan mengeksekusi download paket dari repository kemudian akan mengeksekusi installer nya sekaligus :D nah jika sudah selesai proses download dan install nya coba ketikan command atau bisa sobat search dimenu dengan keyword <strong><code>inkscape</code></strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Abas_$&gt; inkscape</span><br></pre></td></tr></table></figure></p>
-<h4 id="Taraaa-D-Inkscape-sobat-sudah-terinstall"><a href="#Taraaa-D-Inkscape-sobat-sudah-terinstall" class="headerlink" title="Taraaa :D Inkscape sobat sudah terinstall"></a>Taraaa :D <a href="https://inkscape.org" target="_blank" rel="noopener"><strong>Inkscape</strong></a> sobat sudah terinstall</h4>
+            <p><p><img src="/asset/inkscape.svg"></p>
+<h4 id="Yo-Sob-Kalian-tau-nggak-apa-itu-Inkscape-D"><a href="#Yo-Sob-Kalian-tau-nggak-apa-itu-Inkscape-D" class="headerlink" title="Yo, Sob! Kalian tau nggak apa itu Inkscape ? :D"></a>Yo, Sob! Kalian tau nggak apa itu <a href="https://inkscape.org" target="_blank" rel="noopener"><strong>Inkscape</strong></a> ? :D</h4><p>Yoi inkscape adalah sebuah <strong>Free Open Source Software</strong> yang berbasis <strong>Vektor</strong>, kata vektor disini bukan maksudnya kita belajar Fisika ya sob :D melainkan <strong>Desain Vektor</strong> hehe.. Mungkin sebagian banyak orang lebih mengenal yang namanya <strong>C#rel</strong> ya? sama dulu saya juga pengguna <strong>C#rel</strong> yang dulu tuh masih jaman-jamannya suka <strong>NgeCr@ck</strong> suka <strong>Baj@k</strong> sana sini hmm jadi sedih kalo inget masa-masa dulu :’D</p></p>
+            <p class="article-more-link">
+                <a href="/2017/12/01/How-To-Install-Inkscape-via-Command-Line-Linux/#more">Read More</a>
+            </p>
         
         </div>
         <footer class="article-footer">
@@ -356,136 +471,6 @@
 </article>
 
 
-
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-            <header class="article-header">
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2017/12/01/hello-world/">Hello World</a>
-        </h1>
-    
-
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/2017/12/01/hello-world/">
-            <time datetime="2017-12-01T05:46:03.290Z" itemprop="datePublished">2017-12-01</time>
-        </a>
-    </div>
-
-
-                        
-                        
-                    </div>
-                
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="https://ahmadbasir.github.io/2017/12/01/hello-world/" data-id="cjapc0mc10000b6jdpzcsk02n" class="article-share-link"><i class="fa fa-share"></i>Bagikan</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="https://ahmadbasir.github.io/2017/12/01/hello-world/#comments" class="article-comment-link"><span class="fb-comments-count" data-href="https://ahmadbasir.github.io/2017/12/01/hello-world/">0</span>&nbsp;Komentar</a>
-    
-
-        </footer>
-    </div>
-    
-</article>
-
-
 </section>
             
                 
@@ -496,6 +481,25 @@
         <h3 class="widget-title">Terbaru</h3>
         <div class="widget">
             <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2017/12/02/hello-world/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2017/12/02/hello-world/" class="title">Hello World</a></p>
+                            <p class="item-date"><time datetime="2017-12-02T13:11:24.130Z" itemprop="datePublished">2017-12-02</time></p>
+                        </div>
+                    </li>
                 
                     <li>
                         
@@ -513,25 +517,6 @@
                             <p class="item-category"><a class="article-category-link" href="/categories/Linux/">Linux</a></p>
                             <p class="item-title"><a href="/2017/12/01/How-To-Install-Inkscape-via-Command-Line-Linux/" class="title">How to Install Inkscape via Command Line | Linux</a></p>
                             <p class="item-date"><time datetime="2017-12-01T12:33:20.000Z" itemprop="datePublished">2017-12-01</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2017/12/01/hello-world/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2017/12/01/hello-world/" class="title">Hello World</a></p>
-                            <p class="item-date"><time datetime="2017-12-01T05:46:03.290Z" itemprop="datePublished">2017-12-01</time></p>
                         </div>
                     </li>
                 
