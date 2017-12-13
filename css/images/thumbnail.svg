@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="42.333mm"
+   height="42.333mm"
+   viewBox="0 0 42.333 42.333"
+   version="1.1"
+   id="svg1250"
+   inkscape:version="0.92.2 (unknown)"
+   sodipodi:docname="thumbnail.svg">
+  <defs
+     id="defs1244" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6562501"
+     inkscape:cx="193.49627"
+     inkscape:cy="86.797709"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="714"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1247">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-254.667)">
+    <g
+       id="g1873"
+       transform="matrix(0.84666661,0,0,0.81410256,-0.84683177,254.66683)">
+      <rect
+         id="rect1806"
+         height="50"
+         width="48"
+         style="fill:#424a60;stroke:#e7eced;stroke-width:2;stroke-miterlimit:10"
+         y="1"
+         x="2" />
+      <circle
+         id="circle1808"
+         r="4.5689998"
+         cy="13.569"
+         cx="14"
+         style="fill:#efce4a" />
+      <rect
+         id="rect1810"
+         height="10"
+         width="48"
+         style="fill:#e7eced"
+         y="41"
+         x="2" />
+      <polygon
+         id="polygon1812"
+         points="36,20 25.5,31.5 30.983,36.983 35,41 49,41 49,32.111 48,31 "
+         style="fill:#1a9172" />
+      <polygon
+         id="polygon1814"
+         points="20.017,26.017 3,41 35,41 30.983,36.983 "
+         style="fill:#25ae88" />
+      <g
+         id="g1816" />
+      <g
+         id="g1818" />
+      <g
+         id="g1820" />
+      <g
+         id="g1822" />
+      <g
+         id="g1824" />
+      <g
+         id="g1826" />
+      <g
+         id="g1828" />
+      <g
+         id="g1830" />
+      <g
+         id="g1832" />
+      <g
+         id="g1834" />
+      <g
+         id="g1836" />
+      <g
+         id="g1838" />
+      <g
+         id="g1840" />
+      <g
+         id="g1842" />
+      <g
+         id="g1844" />
+    </g>
+  </g>
+</svg>
